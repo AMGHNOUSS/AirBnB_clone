@@ -3,7 +3,11 @@
 This file contain the base class.
 """
 
-import uuid, datetime
+
+import uuid
+from datetime import datetime
+
+
 class BaseModel:
     """
     class BaseModel that defines all common att/meth for other classes.
@@ -22,6 +26,6 @@ class BaseModel:
     def to_dict(self):
         dictionary = self.__dict__.copy()
         dictionary["__class__"] = self.__class__.__name__
-        dictionary["created_at"] = str(datetime.datetime.isoformat(self.created_at))
-        dictionary["updated_at"] = str(datetime.datetime.isoformat(self.updated_at))
+        dictionary["created_at"] = str(datetime.isoformat(self.created_at))
+        dictionary["updated_at"] = str(datetime.isoformat(self.updated_at))
         return dictionary
