@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 This file contain BaseModal tests
 """
