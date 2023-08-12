@@ -21,6 +21,8 @@ class TestBaseModel(unittest.TestCase):
         pass
 
     def test_BaseModel(self):
+        """ Test attributest values of BaseModel instance """
+
         model_json = self.model.to_dict()
 
         self.assertEqual(self.model.name, "Brahim")
@@ -32,11 +34,15 @@ class TestBaseModel(unittest.TestCase):
         self.assertIsInstance(self.model.updated_at, datetime)
 
     def test_save(self):
+        """ chacks if save method updates the public instances """
+
         self.model.save()
 
         self.assertNotEqual(self.model.created_at, self.model.updated_at)
 
     def test_to_dict(self):
+        """ chacks if ro_dict  method work """
+
         dirct = self.model.to_dict()
 
         self.assertIsInstance(dirct, dict)
