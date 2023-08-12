@@ -38,7 +38,7 @@ class TestBaseModel(unittest.TestCase):
 
         self.model.save()
 
-        self.assertEqual(self.model.created_at, self.model.updated_at)
+        self.assertNotEqual(self.model.created_at, self.model.updated_at)
 
     def test_to_dict(self):
         """ chacks if ro_dict  method work """
