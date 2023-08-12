@@ -16,7 +16,6 @@ import shlex
 class HBNBCommand(cmd.Cmd):
     """Command"""
     
-    l_c = ['BaseModel', 'User', 'Amenity', 'Place', 'City', 'State', 'Review']
     prompt = "(hbnb) "
     
     def help_help(self):
@@ -33,6 +32,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_EOF(self, line):
         """ EOF command to exit the command interpreter """
+        print()
         return True
 
 
