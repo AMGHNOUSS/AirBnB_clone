@@ -10,7 +10,7 @@ class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
     
     def help_help(self):
-        """Prints help command description """
+        """ Prints help command description """
         print("Provides description of a given command")
 
     def emptyline(self):
@@ -18,13 +18,13 @@ class HBNBCommand(cmd.Cmd):
         pass
 
     def do_quit(self, line):
-        """Quit command to exit the program 
-        """
+        """ Quit command to exit the command interpreter """
         return True
-    
+
     def do_EOF(self, line):
-        """EOF command to exit the command interpreter """
+        """ EOF command to exit the command interpreter """
         return True
+
     
 
 if __name__ == '__main__':
