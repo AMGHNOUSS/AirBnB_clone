@@ -1,18 +1,24 @@
-# AirBnB Clone [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/luischaparroc/AirBnB_clone/blob/master/LICENSE) [![Build Status](https://travis-ci.org/luischaparroc/AirBnB_clone.svg?branch=master)](https://travis-ci.org/luischaparroc/AirBnB_clone)
+# AirBnB Clone
 
-![HBnB Logo](./image/hbnb_logo.png)
+![HBnB Logo](./images/hbnb_logo.png)
 
 ### Contents
 
-- [Description](#Description)
-- [Environment](#Environment)
-- [Further Information](#Furtherinformation)
-- [Requirements](#Requirements)
-- [Repo Contents](#FileContents)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Built with](#Built-with)
-- [Acknowledgements](#Acknowledgements)
+- [AirBnB Clone](#airbnb-clone)
+    - [Contents](#contents)
+  - [Description :page\_facing\_up:](#description-page_facing_up)
+  - [Environment :computer:](#environment-computer)
+    - [Further information :bookmark\_tabs:](#further-information-bookmark_tabs)
+  - [Requirements :memo:](#requirements-memo)
+  - [Repo Contents :clipboard:](#repo-contents-clipboard)
+  - [Installation :hammer\_and\_wrench:](#installation-hammer_and_wrench)
+  - [Usage :wrench:](#usage-wrench)
+          - [Example No.1](#example-no1)
+          - [Example No.2](#example-no2)
+  - [Built with :gear:](#built-with-gear)
+    - [Version :pushpin:](#version-pushpin)
+    - [Acknowledgements :raised\_hands:](#acknowledgements-raised_hands)
+    - [Authors :fountain\_pen:](#authors-fountain_pen)
 
 ## Description :page_facing_up:
 
