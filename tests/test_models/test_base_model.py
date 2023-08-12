@@ -20,7 +20,7 @@ class TestBaseModel(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testBaseModel(self):
+    def test_BaseModel(self):
         model_json = self.model.to_dict()
 
         self.assertEqual(self.model.name, "Brahim")
