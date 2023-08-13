@@ -32,7 +32,7 @@ class TestFileStorage(unittest.TestCase):
         key = dictonary["__class__"] + "." + dictonary["id"]
         self.assertEqual(key in all_obj, True)
         self.assertEqual(dictonary['name'], "Brahim")
-        
+
         created = dictonary["created_at"]
         updated = dictonary["updated_at"]
 
@@ -87,6 +87,7 @@ class TestFileStorage(unittest.TestCase):
         new = var2[new_key]
         for key in new:
             self.assertEqual(var1[key], new[key])
+
 
 if __name__ == '__main__':
     unittest.main()
