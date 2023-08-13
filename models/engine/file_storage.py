@@ -15,10 +15,7 @@ class FileStorage:
     __objects = {}
 
     def all(self):
-        """
-        returns the dictionary __objects
-        """
-
+        """ Returns the dictionary __objects """
         return FileStorage.__objects
 
     def new(self, obj):
@@ -48,7 +45,15 @@ class FileStorage:
         """
 
         from models.base_model import BaseModel
-        dct = {"BaseModel": BaseModel}
+        from models.user import User
+        from models.place import Place
+        from models.city import City
+        from models.amenity import Amenity
+        from models.state import State
+        from models.review import Review
+        dct = {'BaseModel': BaseModel, 'User': User, 'Place': Place,
+               'City': City, 'Amenity': Amenity, 'State': State,
+               'Review': Review}
 
         if os.path.exists(FileStorage.__file_path):
             with open(FileStorage.__file_path, "r") as json_file:
