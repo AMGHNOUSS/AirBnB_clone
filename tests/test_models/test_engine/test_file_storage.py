@@ -3,8 +3,8 @@
 This file contain all test cases for file_storage.
 """
 import unittest
-from models.engine.file_storage import FileStorage
 from models.base_model import BaseModel
+from models.engine.file_storage import FileStorage
 from models import storage
 import os
 import json
